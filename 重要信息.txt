@@ -1,0 +1,50 @@
+﻿载体查询 1.1-1.4 密码
+    
+载体查询 1.5密码
+NfW23O7mcbZQQJpW9qzGG5lmq
+
+载体查询 1.6密码
+N5acaVA87EanmBgTpwP4EDqVq
+
+载体查询 2.1
+N5acaVA87EanmBgTpwP4EDqVq
+
+载体查询 3.0
+N5acaVA87EanmBgTpwP4EDqVq
+
+载体查询 3.0密码：
+N5acaVA87EanmBgTpwP4EDqVq
+___________________________________________________________________________________
+连转转化表 密码：
+N5acaVA87EanmBgTpwP4EDqVq
+___________________________________________________________________________________
+
+载体定位查询 密码：
+N5acaVA87EanmBgTpwP4EDqVq
+
+Excel相关宏
+____________________________________________________________________________________
+Sub qing_pin()
+    Range("B2:B37").Select
+    Selection.ClearContents
+    Range("B2").Select
+End Sub
+
+Sub da_yin()
+ActiveWindow.SelectedSheets.PrintOut Copies:=1, Collate:=True
+End Sub
+
+
+PPT相关宏
+_____________________________________________________________________________________
+
+Option Explicit
+Sub 抽奖()
+Dim x
+SlideShowWindows(1).View.State = ppSlideShowRunning
+SlideShowWindows(1).View.FirstAnimationIsAutomatic
+End Sub
+
+Sub 停止()
+SlideShowWindows(1).View.State = ppSlideShowPaused
+End Sub
